@@ -1254,13 +1254,13 @@
     top: 1px; }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: #007bff;
   color: #FFFFFF; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
   .show > .btn-primary.dropdown-toggle,
   .show > .btn-primary.dropdown-toggle:focus,
   .show > .btn-primary.dropdown-toggle:hover {
-    background-color: #40a249;
+    background-color: #19c0db;
     color: #FFFFFF;
     box-shadow: none; }
   .btn-primary:hover {
@@ -2206,9 +2206,9 @@ small {
   font-size: 60%; }
 
 a {
-  color: #378C3F; }
+  color: #2d5cf7; }
   a:hover, a:focus {
-    color: #378C3F; }
+    color: #05357c; }
 
 h1, .h1 {
   font-size: 3.5em;
@@ -2598,7 +2598,7 @@ body {
   background-color: #888 !important; }
 
 .bg-primary {
-  background-color: #378C3F !important; }
+  background-color: #011E58 !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -3800,7 +3800,8 @@ Created using IcoMoon - icomoon.io
     background-position: center center;
     width: 100%;
     height: 100%;
-    z-index: -1; }
+    /* z-index: -1;  */
+  }
   .page-header footer {
     position: absolute;
     bottom: 0;
@@ -4137,7 +4138,7 @@ Created using IcoMoon - icomoon.io
       /* For Safari 5.1 to 6.0 */
       /* For Opera 11.1 to 12.0 */
       /* For Firefox 3.6 to 15 */
-      background: linear-gradient(#378C3F 0%, #000 80%);
+      background: linear-gradient(#011E58 0%, #000 80%);
       /* Standard syntax (must be last) */
       opacity: 0.76;
       filter: alpha(opacity=76);
@@ -5153,7 +5154,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  /* border: 15px solid rgba(55, 140, 63, 0.6); */
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -5168,7 +5169,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image img {
   position: relative;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   height: 180px;
   width: 180px;
   padding: 0;
@@ -5284,3 +5285,87 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
+  .companytitle
+  {
+    color: #0686a3;
+  }
+  
+.videoplayerimgUI {
+  width: 148px;
+  height: 115px;
+  object-fit: fill;
+  padding: 0px 1px;
+  border: ridge;
+  margin: 12px 0px 0px 0px;
+}
+
+.videologoUI {
+  position: absolute;
+  width: 31px;
+  height: 30px;
+  object-fit: scale-down;
+  margin: 93px -37px;
+  color: white;
+  opacity: 0.4;
+  padding: 4px 5px;
+}
+
+.watermarkUI {
+  position: absolute;
+  padding: 4px 5px;
+  margin: 50px -94px;
+  opacity: 0.8;
+  /* z-index: 99; */
+  color: white;
+  user-select: none;
+  width: 40px;
+  height: 40px;
+  object-fit: scale-down;
+}
+
+.videotitleUI {
+  max-width: 165px;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-align: center;
+  background-color: #1045a7;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 8px -7px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+.footertext
+{ 
+    color: grey;
+    font-size: 14px;
+}
+/*Bullet list*/
+  /* ol {
+    list-style: none;
+    counter-reset: li;
+    overflow: hidden;
+ }
+ li {
+    margin-right: 10%;
+    padding: 2%;
+    width: 15%;
+    float: left;
+    line-height: 1.2%;
+    font-weight: bold;
+    counter-increment: li;
+    box-shadow: inset 2px 14px 10px lightblue;
+ }
+ li:hover {
+    box-shadow: inset 6px 14px 10px lightgreen!important;
+    font-size: 1.4em;
+ }
+ li::before {
+    content: counter(li);
+    color: seagreen;
+    display: inline-block;
+    width: 40%;
+    margin-left: -2em;
+ } */
