@@ -5342,6 +5342,14 @@ a.credit {
     color: grey;
     font-size: 14px;
 }
+.btn.btn-icon.btn-lg, .navbar .navbar-nav > a.btn.btn-icon.btn-lg {
+    height: 1.6rem;
+    min-width: 8.6rem;
+    width: 3.6rem;
+    background-color: #007bff;
+    font-weight: bold;
+    padding-top: 3px;
+}   
 /*Bullet list*/
   /* ol {
     list-style: none;
