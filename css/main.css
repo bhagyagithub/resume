@@ -5349,8 +5349,15 @@ a.credit {
     background-color: #007bff;
     font-weight: bold;
     padding-top: 3px;
-}   
-
+}
+.expbg {
+   background-color: #BFDCF1 !important;
+}
+.projects {   
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 4px 0px 35px 0px !IMPORTANT;
+}
 /*Bullet list*/
   /* ol {
     list-style: none;
